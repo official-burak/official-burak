@@ -61,5 +61,5 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 <!-- recent-work:end -->
 
 <!-- github-stats:start -->
-Last 12 months: 83 pull requests opened, 9 merged, 8 issues closed.
+Last 12 months: 82 pull requests opened, 8 merged, 8 issues closed.
 <!-- github-stats:end -->
