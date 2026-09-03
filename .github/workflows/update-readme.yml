@@ -1,0 +1,49 @@
+name: Update profile README
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - .github/workflows/update-readme.yml
+      - .github/scripts/update_readme.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Refresh README sections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update_readme.py
+
+      - name: Commit when the generated files changed
+        env:
+          GIT_AUTHOR_NAME: Burak Keskin
+          GIT_AUTHOR_EMAIL: official.burak@icloud.com
+          GIT_COMMITTER_NAME: Burak Keskin
+          GIT_COMMITTER_EMAIL: official.burak@icloud.com
+        run: |
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "Profile README is already current"
+            exit 0
+          fi
+          tree=$(git write-tree)
+          parent=$(git rev-parse HEAD)
+          commit=$(git commit-tree "$tree" -p "$parent" -m "Update generated profile README sections")
+          git update-ref HEAD "$commit"
+          git push
