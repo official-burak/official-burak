@@ -17,6 +17,11 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/nodejs/undici">undici</a></td>
+<td>Forward rawHeaders writes through RetryController.</td>
+<td><a href="https://github.com/nodejs/undici/pull/5727">Merged</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/chaijs/chai">chai</a></td>
 <td>Cover throws() when the thrown value is not an Error.</td>
 <td><a href="https://github.com/chaijs/chai/pull/1847">Merged</a></td>
@@ -51,15 +56,10 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 <td>Update fields registered under an object or array value.</td>
 <td><a href="https://github.com/react-hook-form/react-hook-form/pull/13667">Merged</a></td>
 </tr>
-<tr>
-<td><a href="https://github.com/ccxt/ccxt">ccxt</a></td>
-<td>Map open_orders cancel reason to unified status.</td>
-<td><a href="https://github.com/ccxt/ccxt/pull/29970">Merged</a></td>
-</tr>
 </tbody>
 </table>
 <!-- recent-work:end -->
 
 <!-- github-stats:start -->
-Last 12 months: 82 pull requests opened, 8 merged, 8 issues closed.
+Last 12 months: 83 pull requests opened, 10 merged, 10 issues closed.
 <!-- github-stats:end -->
