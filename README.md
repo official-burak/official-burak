@@ -56,6 +56,11 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 <td>Update fields registered under an object or array value.</td>
 <td><a href="https://github.com/react-hook-form/react-hook-form/pull/13667">Merged</a></td>
 </tr>
+<tr>
+<td><a href="https://github.com/ccxt/ccxt">ccxt</a></td>
+<td>Map open_orders cancel reason to unified status.</td>
+<td><a href="https://github.com/ccxt/ccxt/pull/29970">Merged</a></td>
+</tr>
 </tbody>
 </table>
 <!-- recent-work:end -->
