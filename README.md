@@ -17,6 +17,11 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/gofiber/fiber">fiber</a></td>
+<td>🩹 fix: treat Vary field names as case-insensitive.</td>
+<td><a href="https://github.com/gofiber/fiber/pull/4642">Merged</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/nodejs/undici">undici</a></td>
 <td>Forward rawHeaders writes through RetryController.</td>
 <td><a href="https://github.com/nodejs/undici/pull/5727">Merged</a></td>
