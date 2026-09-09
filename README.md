@@ -17,6 +17,11 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/pillarjs/hbs">hbs</a></td>
+<td>Treat async substitution throws as render errors.</td>
+<td><a href="https://github.com/pillarjs/hbs/pull/276">Merged</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/remix-run/react-router">react-router</a></td>
 <td>Pass --conditions as argv when relaunching the dev CLI.</td>
 <td><a href="https://github.com/remix-run/react-router/pull/15435">Merged</a></td>
