@@ -17,6 +17,11 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/eslint/config-inspector">config-inspector</a></td>
+<td>Don&#x27;t crash stats when a pass has no parse timing.</td>
+<td><a href="https://github.com/eslint/config-inspector/pull/334">Merged</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/pillarjs/hbs">hbs</a></td>
 <td>Treat async substitution throws as render errors.</td>
 <td><a href="https://github.com/pillarjs/hbs/pull/276">Merged</a></td>
