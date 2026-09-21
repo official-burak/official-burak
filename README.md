@@ -17,6 +17,11 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/ueberdosis/tiptap">tiptap</a></td>
+<td>Do not join items across isolating nodes.</td>
+<td><a href="https://github.com/ueberdosis/tiptap/pull/8332">Merged</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/IBM/sarama">sarama</a></td>
 <td>Capture logs without replacing the global Logger.</td>
 <td><a href="https://github.com/IBM/sarama/pull/3737">Merged</a></td>
