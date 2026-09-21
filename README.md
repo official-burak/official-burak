@@ -17,6 +17,11 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/IBM/sarama">sarama</a></td>
+<td>Capture logs without replacing the global Logger.</td>
+<td><a href="https://github.com/IBM/sarama/pull/3737">Merged</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/pinojs/thread-stream">thread-stream</a></td>
 <td>Keep the worker referenced while flush(cb) is pending.</td>
 <td><a href="https://github.com/pinojs/thread-stream/pull/249">Merged</a></td>
