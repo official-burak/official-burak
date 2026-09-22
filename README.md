@@ -17,6 +17,11 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/forwardemail/superagent">superagent</a></td>
+<td>Report maxResponseSize overflow without a double callback.</td>
+<td><a href="https://github.com/forwardemail/superagent/pull/1852">Merged</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/ueberdosis/tiptap">tiptap</a></td>
 <td>Do not join items across isolating nodes.</td>
 <td><a href="https://github.com/ueberdosis/tiptap/pull/8332">Merged</a></td>
