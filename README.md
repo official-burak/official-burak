@@ -17,6 +17,11 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/wevm/wagmi">wagmi</a></td>
+<td>Enable getTransaction query for blockNumber 0 (genesis).</td>
+<td><a href="https://github.com/wevm/wagmi/pull/5224">Merged</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/axios/axios">axios</a></td>
 <td>Fix(core)!: keep literal request headers named after a method.</td>
 <td><a href="https://github.com/axios/axios/pull/11156">Merged</a></td>
