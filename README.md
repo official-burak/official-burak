@@ -107,9 +107,9 @@ By combining my deep background in high-stakes fields like Fintech, robotics, an
 <td><a href="https://github.com/browser-use/browser-use/pull/5561">Merged</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/diegosouzapw/OmniRoute">OmniRoute</a></td>
+<td><a href="https://github.com/cheaper-inference/OmniRoute">OmniRoute</a></td>
 <td>Keep Windows DNS elevation off the POSIX sudo path.</td>
-<td><a href="https://github.com/diegosouzapw/OmniRoute/pull/11542">Merged</a></td>
+<td><a href="https://github.com/cheaper-inference/OmniRoute/pull/11542">Merged</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/foxglove/mcap">mcap</a></td>
